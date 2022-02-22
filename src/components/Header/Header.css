@@ -1,0 +1,6 @@
+.header__container {
+ background-image: url("../assets/img/lessons_large.png");
+}
+.header__container-title {
+ font-size: 6rem;
+}
