@@ -1,9 +1,12 @@
 import Navbar from './components/Navigation/Navbar';
 
+import Header from './components/Header/Header';
+
 function App() {
   return (
     <div>
       <Navbar></Navbar>
+      <Header></Header>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
