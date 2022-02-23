@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
      <style scoped>{css}</style>
       <div className="header__container">
-        <h2 className="header__container-title"></h2>
+        {/* <h2 className="header__container-title"></h2> */}
       </div>
     </header>
   );
