@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Routes>
-      <Route path="https://paulaami.github.io/React-Single-Page-App" element={<HomePage />} />
+      <Route path="/React-Single-Page-App/" element={<HomePage />} />
       <Route path="/about.html" element={<AboutPage />} />
       <Route path="/collection.html" element={<CollectionPage />} />
       <Route path="/collection-item.html" element={<SinglePage />} />
