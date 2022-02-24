@@ -10,12 +10,12 @@ const CollectionItem = () => {
           <img
             className="section__item-img item-small"
             src="images/book_item.png"
-            alt="picture of books and plant"
+            alt="books and plant"
           />
           <img
             className="section__item-img item-large"
             src="images/book_item_large.png"
-            alt="picture of books and plant"
+            alt="books and plant"
           />
           <Description title="Section title"></Description>
         </div>
