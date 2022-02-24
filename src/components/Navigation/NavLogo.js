@@ -4,7 +4,7 @@ const NavLogo = () => {
 	return (
 		<div className="navigation__container-logo">
 			<h1 className="navigation__container-logo-name">
-				<Link to="/">Product Name</Link>
+				<Link to="/React-Single-Page-App/index.html">Product Name</Link>
 			</h1>
 		</div>
 	);

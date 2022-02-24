@@ -6,7 +6,7 @@ const NavList = () => {
       <li className="navigation__container-list-item">
         <Link
           className="navigation__container-list-link text-style"
-          to="/about.html"
+          to="/React-Single-Page-App/about.html/"
         >
           About
         </Link>
@@ -14,7 +14,7 @@ const NavList = () => {
       <li className="navigation__container-list-item">
         <Link
           className="navigation__container-list-link text-style collection-link"
-          to="/collection.html"
+          to="/React-Single-Page-App/collection.html/"
         >
           Collection
         </Link>

@@ -7,7 +7,7 @@ const HeaderNav = (props) => {
       <div className="container">
         <span className="header__nav-home text-style">
           <Link
-            to="https://paulaami.github.io/React-Single-Page-App/"
+            to="/React-Single-Page-App/"
           >
             Home
           </Link>

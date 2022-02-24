@@ -5,7 +5,7 @@ const NavDesktop = () => {
       <li className="navigation__container-list-item">
         <Link
           className="navigation__container-list-link text-style about-link"
-          to="/about.html"
+          to="/React-Single-Page-App/about.html/"
         >
           About
         </Link>
@@ -13,7 +13,7 @@ const NavDesktop = () => {
       <li className="navigation__container-list-item">
         <Link
           className="navigation__container-list-link text-style collection-link"
-          to="/collection.html"
+          to="/React-Single-Page-App/collection.html/"
         >
           Collection
         </Link>
