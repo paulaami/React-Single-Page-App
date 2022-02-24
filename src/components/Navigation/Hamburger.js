@@ -15,14 +15,14 @@ const Hamburger = () => {
 	const burgerIcon = (
 		<img
 			className="icon burger-icon"
-			src="svg/hamburger.svg"
+			src="/React-Single-Page-App/svg/hamburger.svg"
 			alt="hamburger icon menu"
 		/>
 	);
 
 
 	const closeIcon = (
-		<img className="icon close-icon" src="svg/close.svg" alt="close icon" />
+		<img className="icon close-icon" src="/React-Single-Page-App/svg/close.svg" alt="close icon" />
 	);
 
 	return (

@@ -7,14 +7,14 @@ const Box = (props) => {
       <Link to="/React-Single-Page-App/collection-item.html">
         <img
           className="img-responsive"
-          src="images/book_large.png"
+          src="/React-Single-Page-App/images/book_large.png"
           alt="books with a plant"
         />
       </Link>
       <Link to="/React-Single-Page-App/collection-item.html">
         <img
           className="box-img"
-          src="images/book.png"
+          src="/React-Single-Page-App/images/book.png"
           alt="books with a plant"
         />
       </Link>

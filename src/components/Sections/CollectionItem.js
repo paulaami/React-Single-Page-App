@@ -9,12 +9,12 @@ const CollectionItem = () => {
         <div className="section__item-wrapper">
           <img
             className="section__item-img item-small"
-            src="images/book_item.png"
+            src="/React-Single-Page-App/images/book_item.png"
             alt="books and plant"
           />
           <img
             className="section__item-img item-large"
-            src="images/book_item_large.png"
+            src="/React-Single-Page-App/images/book_item_large.png"
             alt="books and plant"
           />
           <Description title="Section title"></Description>

@@ -10,8 +10,8 @@ const Navbar = (props) => {
 				<NavLogo/>
 				<Hamburger />
 				<button className="account">
-					<img src="svg/account.svg" aria-hidden="true" className="account-icon" alt="account icon" />
-					<img src="svg/account-white.svg" aria-hidden="true" className="account-icon-white" alt="account icon" />
+					<img src="/React-Single-Page-App/svg/account.svg" aria-hidden="true" className="account-icon" alt="account icon" />
+					<img src="/React-Single-Page-App/svg/account-white.svg" aria-hidden="true" className="account-icon-white" alt="account icon" />
 				</button>
 			</div>
 		</nav>
