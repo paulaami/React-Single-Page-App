@@ -6,14 +6,14 @@ const css = `
  background-image: url("images/lessons.png");
 }
 .subpage .header__container {
-  background-image: url("images/lessons_about.png");
+  background-image: url("/React-Single-Page-App/images/lessons_about.png");
 }
 @media screen and (min-width: 1439px) {
  .header__container{
   background-image: url("images/lessons_large.png");
  }
  .subpage .header__container {
-  background-image: url("images/lessons_about_large.png");
+  background-image: url("/React-Single-Page-App/images/lessons_about_large.png");
 }
 }`;
 
