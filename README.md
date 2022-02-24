@@ -1,4 +1,4 @@
-Live demo: [https://paulaami.github.io/React-Single-Page-App/] (https://paulaami.github.io/React-Single-Page-App/)
+Live demo:  https://paulaami.github.io/React-Single-Page-App/
 
 # Getting Started with Create React App
 
