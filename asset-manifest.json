@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-Single-Page-App/static/css/main.e303958e.css",
-    "main.js": "/React-Single-Page-App/static/js/main.805678c5.js",
+    "main.js": "/React-Single-Page-App/static/js/main.d9dd68c9.js",
     "index.html": "/React-Single-Page-App/index.html",
     "main.e303958e.css.map": "/React-Single-Page-App/static/css/main.e303958e.css.map",
-    "main.805678c5.js.map": "/React-Single-Page-App/static/js/main.805678c5.js.map"
+    "main.d9dd68c9.js.map": "/React-Single-Page-App/static/js/main.d9dd68c9.js.map"
   },
   "entrypoints": [
     "static/css/main.e303958e.css",
-    "static/js/main.805678c5.js"
+    "static/js/main.d9dd68c9.js"
   ]
 }
