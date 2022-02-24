@@ -10,9 +10,9 @@ function App() {
     <div>
       <Routes>
       <Route path="/React-Single-Page-App/" element={<HomePage />} />
-      <Route path="/about.html" element={<AboutPage />} />
-      <Route path="/collection.html" element={<CollectionPage />} />
-      <Route path="/collection-item.html" element={<SinglePage />} />
+      <Route path="/React-Single-Page-App/about.html" element={<AboutPage />} />
+      <Route path="/React-Single-Page-App/collection.html" element={<CollectionPage />} />
+      <Route path="/React-Single-Page-App/collection-item.html" element={<SinglePage />} />
       </Routes>
     </div>
   );
