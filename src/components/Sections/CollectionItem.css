@@ -29,6 +29,16 @@
   display: none;
 }
 
+.collection__item .section__description {
+ padding-top: 0;
+}
+
+.home .new-item {
+ display: none;
+ height: 0;
+ width: 0;
+}
+
 @media screen and (min-width: 375px) {
   .section__item-img {
     width: 34.3rem;

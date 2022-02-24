@@ -14,6 +14,10 @@ const HomeCollection = () => {
 					<Box collectionName='Collection Item' />
 					<Box collectionName='Collection Item' />
 					<Box collectionName='Collection Item' />
+					<Box collectionName='Collection Item' />
+					<Box collectionName='Collection Item' />
+					<Box collectionName='Collection Item' />
+					<Box collectionName='Collection Item' />
 				</div>
 			</div>
 		</section>

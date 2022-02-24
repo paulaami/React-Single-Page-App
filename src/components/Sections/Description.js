@@ -1,10 +1,10 @@
 import "./Description.css";
 
-const Description = () => {
+const Description = (props) => {
   return (
     <section className="section__description">
       <div className="container">
-        <h3 className="section__description-heading">Heading</h3>
+        <h3 className="section__description-heading">{props.title}</h3>
         <div className="section__description-wrapper">
           <p className="text-style">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -7,7 +7,7 @@ const HeaderNav = (props) => {
       <div className="container">
         <span className="header__nav-home text-style">
           <Link
-            to="/index.html"
+            to="/"
           >
             Home
           </Link>

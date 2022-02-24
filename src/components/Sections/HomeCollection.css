@@ -75,12 +75,16 @@
   margin-bottom: 5rem;
 }
 
-.collection__page .next-box {
+.collection__item .header__container {
   display: none;
 }
 
-.collection__item .header__container {
+.home .section__collection-bottom-box:nth-of-type(5),
+.home .section__collection-bottom-box:nth-of-type(6),.home .section__collection-bottom-box:nth-of-type(7),.home .section__collection-bottom-box:nth-of-type(8) {
   display: none;
+}
+.collection__page .section__collection-bottom-box:nth-of-type(7),.collection__page .section__collection-bottom-box:nth-of-type(8) {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 375px) {
