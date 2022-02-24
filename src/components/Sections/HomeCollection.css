@@ -79,6 +79,10 @@
   display: none;
 }
 
+.collection__item .header__container {
+  display: none;
+}
+
 @media screen and (min-width: 375px) {
   .section__collection-bottom {
     -webkit-box-pack: justify;
