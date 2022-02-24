@@ -1,13 +1,19 @@
-import Navbar from './components/Navigation/Navbar';
-import Header from './components/Header/Header';
-import HomeCollection from './components/Sections/HomeCollection';
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import CollectionPage from "./pages/Collection";
+import SinglePage from "./pages/CollectionItem";
+
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <Header></Header>
-      <HomeCollection></HomeCollection>
+      <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about.html" element={<AboutPage />} />
+      <Route path="/collection.html" element={<CollectionPage />} />
+      <Route path="/collection-item.html" element={<SinglePage />} />
+      </Routes>
     </div>
   );
 }

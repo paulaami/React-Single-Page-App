@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import NavList from "./NavList";
 
+import './Navigation.css';
+
 const Hamburger = () => {
 	
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -17,18 +19,6 @@ const Hamburger = () => {
 		/>
 	);
 
-//  useEffect(() => {
-//   const mql = window.matchMedia("(min-width: 1439px)");
-//   mql.addEventListener("change", resize);
-//   function resize(e) {
-//       e.matches ? <NavList /> : console.log('matches')
-//   }
-//   return () => {
-//       mql.removeEventListener("change", resize);
-//   }
-// },[]);
-
-// isMobile.addListener(handleTabletChange)
 
 	const closeIcon = (
 		<img className="icon close-icon" src="svg/close.svg" alt="close icon" />

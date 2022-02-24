@@ -1,0 +1,44 @@
+.subpage .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 5.5rem;
+}
+
+.subpage .header__nav span,
+.subpage .header__nav a {
+  color: #9d9d9d;
+}
+
+.subpage .header__nav .slash {
+  padding: 0 1rem;
+}
+
+.subpage .header__nav-home {
+  text-decoration: underline;
+}
+
+.collection__item .header__nav {
+  height: 4.9rem;
+}
+
+.collection__item .header__nav-current {
+  text-decoration: underline;
+}
+
+.home .header__nav {
+ display: none;
+}
+
+@media screen and (min-width: 1439px) {
+  .subpage .header__nav {
+    height: 8.2rem;
+  }
+
+  .collection__item .header__nav {
+    height: 8.2rem;
+  }
+}

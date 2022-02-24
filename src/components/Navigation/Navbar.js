@@ -1,15 +1,17 @@
-import "./Navbar.css";
 import NavLogo from "./NavLogo";
 import Hamburger from "./Hamburger";
 
-const Navbar = () => {
+import './Navigation.css';
+
+const Navbar = (props) => {
 	return (
-		<nav className="navigation">
+		<nav className='navigation'>
 			<div className="navigation__container">
-				<NavLogo />
+				<NavLogo/>
 				<Hamburger />
 				<button className="account">
-					<img src="svg/account.svg" aria-hidden="true" alt="account icon" />
+					<img src="svg/account.svg" aria-hidden="true" className="account-icon" alt="account icon" />
+					<img src="svg/account-white.svg" aria-hidden="true" className="account-icon-white" alt="account icon" />
 				</button>
 			</div>
 		</nav>

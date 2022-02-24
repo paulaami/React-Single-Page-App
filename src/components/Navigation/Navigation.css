@@ -65,9 +65,39 @@
   display: block;
 }
 
+.hide {
+  display: none;
+}
+
+.collection__page .navigation__container-logo a {
+  color: #fff;
+}
+.blue-background {
+  background-color: #E1EAE4;
+}
+
+.darkblue-background {
+  background-color: #6d888e;
+}
+
+.about__page .navigation__container-list, .about__page .navigation__container-hamburger, .about__page .navigation {
+  background-color: #E1EAE4;
+}
+
+.collection__page .navigation__container-list, .collection__page .navigation__container-hamburger, .collection__page .navigation {
+  background-color: #6d888e;
+}
+
+.collection__page .icon  {
+  filter: invert(92%) sepia(0%) saturate(7500%) hue-rotate(173deg) brightness(115%) contrast(104%);
+}
 /* .close-icon {
   display: none;
 } */
+
+.account-white {
+  display: none;
+}
 
 @media screen and (min-width: 1439px) {
   h2 {
@@ -104,4 +134,13 @@
   .navigation__container .account {
     display: block;
   }
+
+  .collection__page .navigation__container .account .account-icon {
+    display: none;
+  }
+
+  .collection__page .navigation__container .account .account-icon-white {
+    display: block;
+  }
+
 }

@@ -56,6 +56,22 @@ h2 {
   line-height: 1.5;
 }
 
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.blue-background {
+  background-color: #E1EAE4;
+}
+
+.darkblue-background {
+  background-color: #6d888e;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

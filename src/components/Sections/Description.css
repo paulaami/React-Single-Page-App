@@ -1,0 +1,22 @@
+.section__description {
+  padding: 3.9rem 0;
+}
+
+.section__description-heading {
+  margin-bottom: 2.5rem;
+  font-size: 2.4rem;
+}
+
+.section__description-wrapper {
+  max-width: 62.3rem;
+}
+
+@media screen and (min-width: 1439px) {
+  .section__description {
+    padding: 7.5rem 0;
+  }
+  .section__description-heading {
+    margin-bottom: 4.5rem;
+    font-size: 4.8rem;
+  }
+}
