@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavList from "./NavList";
+import NavDesktop from "./NavDesktop";
 
 import './Navigation.css';
 
@@ -26,9 +27,9 @@ const Hamburger = () => {
 
 	return (
 		<div>
-			{/* add media */}
+
 			{navbarOpen && <NavList />} 
-			{/* {mediaMatch ? <NavList /> : ''}  */}
+			<NavDesktop></NavDesktop>
 			<button
 				className="navigation__container-hamburger"
 				aria-expanded="false"

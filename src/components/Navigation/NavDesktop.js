@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-
-const NavList = () => {
+const NavDesktop = () => {
   return (
-    <ul className="navigation__container-list">
+    <ul className="navigation__container-list nav-desktop">
       <li className="navigation__container-list-item">
         <Link
-          className="navigation__container-list-link text-style"
+          className="navigation__container-list-link text-style about-link"
           to="/about.html"
         >
           About
@@ -23,4 +22,4 @@ const NavList = () => {
   );
 };
 
-export default NavList;
+export default NavDesktop;

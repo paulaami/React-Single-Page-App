@@ -1,23 +1,28 @@
+import { Link } from "react-router-dom";
 import "./Box.css";
 
 const Box = (props) => {
   return (
-	<div className="section__collection-bottom-box">
-		<a href="collection-item.html">
-			<img
-				className="img-responsive"
-				src="images/book_large.png"
-				alt="books with a plant"
-			/>
-		</a>
-		<a href="collection-item.html">
-			<img className="box-img" src="images/book.png" alt="books with a plant" />
-		</a>
-		<p className="text-style">
-			<a href="collection-item.html">{props.collectionName}</a>
-		</p>
-	</div>
-  )
+    <div className="section__collection-bottom-box">
+      <Link to="/collection-item.html">
+        <img
+          className="img-responsive"
+          src="images/book_large.png"
+          alt="books with a plant"
+        />
+      </Link>
+      <Link to="/collection-item.html">
+        <img
+          className="box-img"
+          src="images/book.png"
+          alt="books with a plant"
+        />
+      </Link>
+      <p className="text-style">
+        <Link to="/collection-item.html">{props.collectionName}</Link>
+      </p>
+    </div>
+  );
 };
 
 export default Box;

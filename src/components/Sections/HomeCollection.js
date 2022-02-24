@@ -1,5 +1,4 @@
 import "./HomeCollection.css";
-// import Container from "../UI/Container";
 import Box from "../UI/Box";
 
 const HomeCollection = () => {
